@@ -36,3 +36,41 @@
             reversed += phrase.charAt(i1);
         }
         System.out.println("length : "+ len +"Reversed String : " + reversed);
+//--------------------------------------------------------------------
+//        Develop a program that takes a sentence as input and extracts a substring from
+//        it, then prints the extracted substring.  
+//• Input: Sentence = "The quick brown fox jumps over the lazy dog", Start Index
+//                = 10, End Index = 20
+
+        String sentence = "The quick brown fox jumps over the lazy dog";
+        int start = 10;
+        int end = 20;
+        String result = sentence.substring(start, end);
+        System.out.println("Extracted substring: " + result);
+
+//--------------------------------------------------------------------
+//        Write a program that takes a sentence and a keyword as input, then check if
+//        the keyword is present in the sentence and prints the result.
+//• Input: Sentence = "The quick brown fox jumps over the lazy dog", Keyword =
+//                "jumps"
+        String sentence = "The quick brown fox jumps over the lazy dog";
+        String keyword = "jumps";
+        if (sentence.contains(keyword)) {
+            System.out.println("Keyword " + keyword + "is present in the sentence");
+        } else {
+            System.out.println("Keyword " + keyword + "is NOT present in the sentence");
+        }
+// -------------------------------------------------------------------------
+ String sentence = "The quick brown fox jumps over the lazy dog";
+        String toReplace = "fox";
+        String replacement = "cat";
+        String modified = sentence.replace(toReplace, replacement);
+        System.out.println("Modified sentence: " + modified);
+//--------------------------------------------------------------------------------
+ String s1 = "Hello";
+        String s2 = "hello";
+        if (s1.equalsIgnoreCase(s2)) {
+            System.out.println("Strings are equal (ignoring case).");
+        } else {
+            System.out.println("Strings are NOT equal.");
+        }
