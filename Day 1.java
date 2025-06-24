@@ -28,6 +28,7 @@
 //        Create a program that takes a string as input, calculates its length, and then
 //        reverses the string using the StringBuilder class, finally printing both the length and
 //        reversed string.
+       // first solution
         System.out.println("Enter pharse :");
         String phrase = i.nextLine();
         int len = phrase.length();
@@ -36,15 +37,22 @@
             reversed += phrase.charAt(i1);
         }
         System.out.println("length : "+ len +"Reversed String : " + reversed);
+     //Second soluton
+       System.out.println("Enter phrase:");
+        String phrase = scanner.nextLine();
+        int len = phrase.length();
+        String reversed = new StringBuilder(phrase).reverse().toString();
+        System.out.println("Length: " + len);
+        System.out.println("Reversed String: " + reversed);
 //--------------------------------------------------------------------
 //        Develop a program that takes a sentence as input and extracts a substring from
 //        it, then prints the extracted substring.  
 //• Input: Sentence = "The quick brown fox jumps over the lazy dog", Start Index
 //                = 10, End Index = 20
 
-        String sentence = "The quick brown fox jumps over the lazy dog";
-        int start = 10;
-        int end = 20;
+        String sentence = i.nextLine();
+        int start = i.next.Int();
+        int end =i.next.Int();
         String result = sentence.substring(start, end);
         System.out.println("Extracted substring: " + result);
 
@@ -53,22 +61,24 @@
 //        the keyword is present in the sentence and prints the result.
 //• Input: Sentence = "The quick brown fox jumps over the lazy dog", Keyword =
 //                "jumps"
-        String sentence = "The quick brown fox jumps over the lazy dog";
-        String keyword = "jumps";
+        String sentence =  i.nextLine();
+        String keyword =  i.nextLine();
         if (sentence.contains(keyword)) {
             System.out.println("Keyword " + keyword + "is present in the sentence");
         } else {
             System.out.println("Keyword " + keyword + "is NOT present in the sentence");
         }
 // -------------------------------------------------------------------------
- String sentence = "The quick brown fox jumps over the lazy dog";
-        String toReplace = "fox";
-        String replacement = "cat";
+// تم التعديل
+ String sentence =  i.nextLine();
+        String toReplace =  i.nextLine();
+        String replacement =  i.nextLine();
         String modified = sentence.replace(toReplace, replacement);
         System.out.println("Modified sentence: " + modified);
 //--------------------------------------------------------------------------------
- String s1 = "Hello";
-        String s2 = "hello";
+// تم التعديل
+ String s1 =  i.nextLine();
+        String s2 =  i.nextLine();
         if (s1.equalsIgnoreCase(s2)) {
             System.out.println("Strings are equal (ignoring case).");
         } else {
