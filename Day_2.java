@@ -15,49 +15,54 @@ public class Day_2 {
 //        else
 //            System.out.println("Invalid input");
         //Ex 2
-//        System.out.println("Enter num :");
-//        int n1=i.nextInt();
-//        System.out.println("Enter num :");
-//        int n2=i.nextInt();
-//        System.out.println("Enter num :");
-//        int n3=i.nextInt();
-//        if(n1>n2 && n1>n3)
-//            System.out.println("First num is Bigger");
-//        else if (n2>n1 && n2>n3)
-//            System.out.println("Second num is bigger");
-//        else if (n3>n1 && n3>n2)
-//            System.out.println("Third num is Bigger");
-//        else
-//            System.out.println("You enterd same value try again");
+        //Edit Solution
+ //        Scanner i = new Scanner(System.in);
+ //        System.out.print("Enter the 1st number: ");
+ //        int n1 = i.nextInt();
+ //        System.out.print("Enter the 2nd number: ");
+ //        int n2 = i.nextInt();
+ //        System.out.print("Enter the 3rd number: ");
+ //        int n3 = i.nextInt();
+ //        int greatest;
+ //        if(n1 >= n2 && n1 >= n3) {
+ //            greatest = n1;
+ //        } else if(n2 >= n1 && n2 >= n3) {
+ //            greatest = n2;
+ //        } else {
+ //            greatest = n3;
+ //        }
+ //        System.out.println("The greatest: " + greatest);
+ //    }
         //Ex 3
-//        System.out.println("Enter num from 1 to 7");
-//        int x=i.nextInt();
-//        switch (x){
-//            case 1 ->{
-//                System.out.println("Sunday");
-//            }
-//            case 2 ->{
-//                System.out.println("Monday");
-//            }
-//            case 3 ->{
-//                System.out.println("Tuesday");
-//            }
-//            case 4 ->{
-//                System.out.println("Wednesday");
-//            }
-//            case 5 ->{
-//                System.out.println("Thursday");
-//            }
-//            case 6 ->{
-//                System.out.println("Friday");
-//            }
-//            case 7 ->{
-//                System.out.println("Saturday");
-//            }
-//            default -> {
-//                System.out.println("Invalid input");
-//            }
-//        }
+        //Edit Solution
+//       int x = (int) (Math.random() * 7) + 1;
+        // System.out.println("random num is : " + x);
+        // switch (x) {
+        //     case 1 -> {
+        //         System.out.println("Sunday");
+        //     }
+        //     case 2 -> {
+        //         System.out.println("Monday");
+        //     }
+        //     case 3 -> {
+        //         System.out.println("Tuesday");
+        //     }
+        //     case 4 -> {
+        //         System.out.println("Wednesday");
+        //     }
+        //     case 5 -> {
+        //         System.out.println("Thursday");
+        //     }
+        //     case 6 -> {
+        //         System.out.println("Friday");
+        //     }
+        //     case 7 -> {
+        //         System.out.println("Saturday");
+        //     }
+        //     default -> {
+        //         System.out.println("Invalid input");
+        //     }
+        // }
 
 //        //Ex 4
 //        System.out.print("Enter your numeric score: ");
