@@ -61,13 +61,9 @@ public class Week2_Day_1 {
 //        }
 
         //Ex 3
-
+//        Edited code
 //        int[] nums = {20, 30, 40};
-//        int temp = 0;
-//        for (int num : nums)
-//            if (temp != num)
-//                temp = Math.max(temp, num);
-//        System.out.println("Larger value between first and last element: "+temp);
+//        System.out.println("Larger value between first and last element: "+Math.max(nums[0],nums[nums.length-1]));
 
         //Ex 4
 
